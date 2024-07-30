@@ -8,6 +8,8 @@ var main = {
         });
     },
     save: function() {
+
+        alert("hi");
         var data = {
             title: $('#title').val(),
             author: $('#author').val(),
